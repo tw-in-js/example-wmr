@@ -2,7 +2,7 @@ import hydrate from 'preact-iso/hydrate'
 import { LocationProvider, Router } from 'preact-iso/router'
 import { ErrorBoundary } from 'preact-iso/lazy'
 
-import { setup } from 'twind'
+import { setup } from 'twind/shim'
 import twindConfig from './twind.config'
 
 if (typeof window !== 'undefined') {
@@ -30,5 +30,5 @@ hydrate(<App />)
 export async function prerender(data) {
   const { default: prerender } = await import('./prerender')
 
-  return prerender(<App {...data} />)
+  return prerender(<App {...data} />, { shim: true })
 }
