@@ -7,6 +7,18 @@ csstype@^3.0.5:
   resolved "https://registry.npmjs.org/csstype/-/csstype-3.0.5.tgz#7fdec6a28a67ae18647c51668a9ff95bb2fa7bb8"
   integrity sha512-uVDi8LpBUKQj6sdxNaTetL6FpeCqTjOvAQuQUa/qAqq8oOd4ivkbhgnqayl0dnPal8Tb/yB1tF+gOvCBiicaiQ==
 
+he@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.npmjs.org/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
+  integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
+
+node-html-parser@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.npmjs.org/node-html-parser/-/node-html-parser-2.0.1.tgz#66e3a6178f5fbf345f5e0e7522d36af7625a3346"
+  integrity sha512-CE0K6zALs+pS+SsQd8oKKF51cNrpwZ6gj/8OSzjhQ2vTfCOnlNtZakgv0MKuEOAZ4kBiKRgJBUicvjAxaFM4Hw==
+  dependencies:
+    he "1.2.0"
+
 preact-iso@^0.2.0:
   version "0.2.0"
   resolved "https://registry.npmjs.org/preact-iso/-/preact-iso-0.2.0.tgz#f7d00716b5e2cef72d9262199a9b44b7c35a9204"
@@ -17,12 +29,13 @@ style-vendorizer@^2.0.0:
   resolved "https://registry.npmjs.org/style-vendorizer/-/style-vendorizer-2.0.0.tgz#0c46cec94069f1c768d31c3d307ed045646f503c"
   integrity sha512-CeqwnrtXd/DKIadVNdJDtHnpCmsc28rWVWLmgpF2HdzTiWFVCE1F1OzWWwskOEtWpOpgm6NrjccfkNGo8qW4MA==
 
-twind@^0.10.3:
-  version "0.10.3"
-  resolved "https://registry.npmjs.org/twind/-/twind-0.10.3.tgz#693310ee3bac1c29245743c41063d8551c7e32ae"
-  integrity sha512-Qp+DWeXApHe4MBGYHKsoYNlHwJH6NAu2e9xCYnett0tmvyrEx2dcXEN+vF1GYCIj6S4LRLztqdH+L9wE1NAXrQ==
+twind@0.10.4-0:
+  version "0.10.4-0"
+  resolved "https://registry.npmjs.org/twind/-/twind-0.10.4-0.tgz#371a0b7914aef0b0888dcb4efc9aa31e7d2af3cd"
+  integrity sha512-moJ1/d4dlP3rW9IiiAuIVVh7PcTIdKWRULZt9CsKIUA/GvRTc6v6TaBFdxASTMcIk6Yg8LBdhypE2U+Y97lGwQ==
   dependencies:
     csstype "^3.0.5"
+    node-html-parser "^2.0.1"
     style-vendorizer "^2.0.0"
 
 wmr@^1.0.0:

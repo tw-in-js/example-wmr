@@ -13,7 +13,7 @@
 	},
 	"dependencies": {
 		"preact-iso": "^0.2.0",
-		"twind": "^0.10.3"
+		"twind": "0.10.4-0"
 	},
 	"devDependencies": {
 		"wmr": "^1.0.0"

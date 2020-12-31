@@ -28,17 +28,7 @@ export function App() {
 hydrate(<App />)
 
 export async function prerender(data) {
-  const { default: prerender } = await import('preact-iso/prerender')
+  const { default: prerender } = await import('./prerender')
 
-  const { sheet, getStyleTagProperties } = await import('./twind.prerender')
-
-  sheet.reset()
-
-  const result = await prerender(<App {...data} />)
-
-  const { id, textContent } = getStyleTagProperties(sheet)
-
-  result.html = `<style id="${id}">${textContent}</style>${result.html}`
-
-  return result
+  return prerender(<App {...data} />)
 }
