@@ -13,9 +13,10 @@
 	},
 	"dependencies": {
 		"preact-iso": "^0.2.0",
-		"twind": "0.10.4-0"
+		"twind": "^0.15.1"
 	},
 	"devDependencies": {
-		"wmr": "^1.0.0"
+		"@rollup/plugin-json": "^4.1.0",
+		"wmr": "^1.1.0"
 	}
 }
