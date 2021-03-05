@@ -1,7 +1,6 @@
 import prerender from 'preact-iso/prerender'
 
-import { setup } from 'twind'
-import { asyncVirtualSheet, shim, getStyleTagProperties } from 'twind/server'
+import { setup, asyncVirtualSheet, shim, getStyleTagProperties } from 'twind/server'
 
 import twindConfig from './twind.config'
 

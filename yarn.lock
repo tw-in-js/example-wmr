@@ -83,26 +83,26 @@ picomatch@^2.2.2:
   resolved "https://registry.npmjs.org/picomatch/-/picomatch-2.2.2.tgz#21f333e9b6b8eaff02468f5146ea406d345f4dad"
   integrity sha512-q0M/9eZHzmr0AulXyPwNfZjtwZ/RBZlbN3K3CErVrk50T2ASYI7Bye0EvekFY3IP1Nt2DHu0re+V2ZHIpMkuWg==
 
-preact-iso@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.npmjs.org/preact-iso/-/preact-iso-0.2.0.tgz#f7d00716b5e2cef72d9262199a9b44b7c35a9204"
-  integrity sha512-p8FJRt55aXpb2TAL3JsiTP1YJm7XqIXb8mf7LVrMNoQRHW0VvqXNvIFYmHOIJArGlIIOb2v1w9o6/edOnSQFvA==
+preact-iso@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/preact-iso/-/preact-iso-1.0.1.tgz#be0ef5762357bb6c227becdbb2f642d8405cc8e1"
+  integrity sha512-A7TpYHNrDe9Mk0oyGyr6UNrd3Yo4+JTq/dIqsuZDgpRE2A/KhkC2Tkp+mkOzYGtJhv4pqXvoiW2KOapVM2Szgw==
 
 style-vendorizer@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/style-vendorizer/-/style-vendorizer-2.0.0.tgz#0c46cec94069f1c768d31c3d307ed045646f503c"
   integrity sha512-CeqwnrtXd/DKIadVNdJDtHnpCmsc28rWVWLmgpF2HdzTiWFVCE1F1OzWWwskOEtWpOpgm6NrjccfkNGo8qW4MA==
 
-twind@^0.15.1:
-  version "0.15.1"
-  resolved "https://registry.npmjs.org/twind/-/twind-0.15.1.tgz#cb2f4713e53c569139bb50b371c08386dcbe69cc"
-  integrity sha512-33eF3h+0PcJ1iAZFHkfqozUE/A5UUonLaBpVcLWYy+2STWs9nx4YHhV6KRizsM5bM5evH5Ki7MGBAMVR147oHw==
+twind@^0.15.9:
+  version "0.15.9"
+  resolved "https://registry.npmjs.org/twind/-/twind-0.15.9.tgz#53e8f89e55dbf29ba4b7ef6e4af431a20b92b070"
+  integrity sha512-4tEjt0gC/eC0CMroHsXgsr04qX5Au6huJrbTkp3XFgoUYZzVbnfdr9PH+WzXpX0uG7MYAktd1+yr8JhBZQOHYA==
   dependencies:
     csstype "^3.0.5"
     htmlparser2 "^6.0.0"
     style-vendorizer "^2.0.0"
 
-wmr@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/wmr/-/wmr-1.1.0.tgz#fb8098d0792ff4fa64872893ae3164fb3c991598"
-  integrity sha512-ELll+l3wegNmYmPLoWUnPBzlv20we4zlM7jfKqP1tzYus8HUil65e8tNug2Vxbd++ROtT9qL54Qmo0DRze66tQ==
+wmr@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.npmjs.org/wmr/-/wmr-1.3.1.tgz#2f36356f853606a7aff87fdd00e9fa0164805fe6"
+  integrity sha512-+CAPpQdExnsykp0C/dj8erri19pzov4YXBG+r1f+DI6uoB62jj+GpTPMXWtkYVMl+YllTONatwS4c3/1p6Kfvg==
