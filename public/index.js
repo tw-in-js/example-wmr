@@ -1,16 +1,10 @@
-import hydrate from 'preact-iso/hydrate'
-import { LocationProvider, Router } from 'preact-iso/router'
-import { ErrorBoundary } from 'preact-iso/lazy'
+import { LocationProvider, Router } from "preact-iso/router";
+import { ErrorBoundary } from "preact-iso/lazy";
 
-import { setup } from 'twind/shim'
-import twindConfig from './twind.config'
+import withTwind from "@twind/wmr";
 
-if (typeof window !== 'undefined') {
-  setup(twindConfig)
-}
-
-import Home from './pages/home/index.js'
-import NotFound from './pages/_404.js'
+import Home from "./pages/home/index.js";
+import NotFound from "./pages/_404.js";
 
 export function App() {
   return (
@@ -22,13 +16,15 @@ export function App() {
         </Router>
       </ErrorBoundary>
     </LocationProvider>
-  )
+  );
 }
 
-hydrate(<App />)
+const { hydrate, prerender } = withTwind({
+  props: {
+    className: true,
+  }
+}, (data) => <App {...data} />);
 
-export async function prerender(data) {
-  const { default: prerender } = await import('./prerender')
+hydrate(<App />);
 
-  return prerender(<App {...data} />, { shim: true })
-}
+export { prerender };
