@@ -2,17 +2,17 @@
 # yarn lockfile v1
 
 
-"@twind/preact@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/@twind/preact/-/preact-1.0.1.tgz#d69e409e58276df31c666c9925a5e7201c667b00"
-  integrity sha512-DkLvJclrNnPonU/b/oMnoCYWxenzXi3tSSUUhFWJB/+7Tois8AJZ6tXm/eLOa136nQs++7VYcjaRMD+aN07m5A==
+"@twind/preact@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.npmjs.org/@twind/preact/-/preact-1.0.3.tgz#d6614f69abc052b170dbd94a633d42f2357ca265"
+  integrity sha512-F+MVU9Pdx/3YgmComw3bh7+fJ0IldbNnw41X9DboU/qt3XzDuJ+wglJZmTIR53x+zrvOFozIfT8xesCPSlNe1Q==
 
-"@twind/wmr@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/@twind/wmr/-/wmr-1.0.1.tgz#0e2abc751b42a72606e36bafcbdabff26ead9754"
-  integrity sha512-1/GSGMEGEUERcSC+NMaZkUfuR810V/w++z6+KmnhLePO8O8e6+/0lLCTaQeNV61s/XauKGvhlMeDVLDsMXRpuQ==
+"@twind/wmr@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.npmjs.org/@twind/wmr/-/wmr-1.0.5.tgz#52a9eeab2c64b52a796f1e770800a6dab574735b"
+  integrity sha512-9iQ6dYm9k8ntWfX0Rko4kVCs0iP4xdBnYi9VibTEYw6PlJqN5tCYxJnBawlzY1a4ZD+SIIdRbs+mOGfE/Ec0yw==
   dependencies:
-    "@twind/preact" "^1.0.1"
+    "@twind/preact" "^1.0.3"
 
 csstype@^3.0.5:
   version "3.0.5"
